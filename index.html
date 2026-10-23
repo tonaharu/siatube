@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>しあTube</title>
-    <meta
+    <title>YouTube Proxy</title>
+    <!--<meta
       name="description"
       content="しあTubeは、日本向けのYouTube匿名視聴サービスです。アカウント不要・広告なしで、プライバシーを守りながら音楽や動画を快適に再生できます。"
     />
     <meta
       name="keywords"
       content="しあTube, YouTube 匿名視聴, プライバシー保護, Invidious 日本, 広告なし, 動画再生"
-    />
+    />-->
 
-    <meta property="og:title" content="しあTube｜YouTube匿名視聴サイト" />
+    <meta property="og:title" content="Youtube_Proxy" />
     <meta
       property="og:description"
-      content="YouTube動画を匿名で、広告なし・追跡なしで視聴。日本向け特化で音楽も再生可能。"
+      content="YouTube動画を広告なしで視聴。音楽も再生可能。"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://siatube-web.com/" />
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="しあTube｜YouTube匿名視聴サイト" />
     <meta
       name="twitter:description"
-      content="YouTube動画を安全・匿名で視聴。広告なし・ログなしで快適に再生できます。"
+      content="YouTube動画を安全に視聴。広告なし・ログなしで再生できます。"
     />
     <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABCFBMVEX/////AAD/AAD/AAD/AAD/AAD/AAD/AgL/AAD/AAD/AAD/AQH+AAD/AAD/AAD/AAD/AgL/AgL/AgL/AAD/AQH/AAD/AQH/AAD/AQH/AAD/AAD/AAD/AAD9a2v9enr9l5f9nJz+AQH+IyP+JSL+KSn+QED+RUP+R0f+T07+Vlb+W1v+YGD+ZWP+bW3+cHD+dHT+hIT+lJT+o6P+qar+ubn+vr7+v7/+y8v+0tL+2dn+4uH/AAD/AQD/AwH/BAT/BgD/BwT/CAj/Cgn/DAz/Dwn/Dw//EhL/FRX/FxL/HBv/NjX/PDz/mZn/s7P/xMT/x8f/3Nz/6Oj/7e3/7+//9PT/+Pj/+vr//v5HoMGnAAAAHXRSTlMAAQsUGR8gMEBJYGd0fX+BiaCntr/N1dzn6fL5/LzLbvwAAAFiSURBVDjLpZNbW4JAEIZXzazUzmYHyzBUTMU0Sm2HVSBFUAmNw///J4HUU5jsjd/NHuZ9dr/ZmUVoe8V20kcROkjEvHjqEkfqYjeGUnlMUS6JThgawGTRNaYqj+hxfPMLAFE1mcBqPpRFUYQfIDAxujOLdaFf97dh0q+8D8QQoAjdEoCoGwFg23M9BADvVP01ecYB4Dq9h78eyNzS/VGcfQNvjYkYAjrOI1lNAqCoDQYhAHRr2WYZWDkHdsYBAITShPLHp93lWe8EUlka8v93gLHeMuxFE6C8WE43PRQGIJzplHXTnUsYy1oIkNiA4dxe23angKVGGFD5IJmpI7y4lgSlWzV8hfoUFIFzecO1tFZNWfOgvlaH4OXXE5imYcxYWDdJSh2jVrk3eQWDMiKbyi161R4ToPRDVMNc0YEcOqY2bSGNkjkacJbwPtZ55BmF07j/teL7mezhBmUze358a30BQYy9I0NB2owAAAAASUVORK5CYII=" />
     <link rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABHVBMVEX/////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD6AAD/AAD/AAD/AAD/AAD/AAD/AQH8AAD/AQH/AQH/AAD/AgL/AgL/AgL/AQH+AQH/AQH/AQH/AQH/AQH/AAD/AAD/AAD/AAD/AQH/AAD9aGj+AAD+Bgb+Ih3+Jyf+MjH+NDT+U1P+WFj+YmL+ZmX+bGz+cXH+dnP+eXn+gID+hoX+iIj+ior+kZH+mJj+n5/+qKf+q6v+ra3+wMD+yMj+zMz+09P+3t7/AAD/AQD/AwP/BQD/Bwb/CQn/DAz/EA//ExL/GRX/Gxn/Hh7/LCz/Pj7/REX/TEz/W1v/X1//s7P/2Nj/4+T/5+f/6ej/7e3/8fH/9fX/+Pj/+/v//v7////UasiIAAAAI3RSTlMAAQMHDxwlLDAxOT1BQ0dMVml4lJinqauywcvV1uPq9ff4+8ASsDIAAAJRSURBVEjHzZZpd5pAFIbHuqS1baxpm9a0amvihrux7kZnJiAoIqCxgjD//2dUVFxSCPIt76dhzn3O3O3cCwCvUt5A8OMZCvrfbO19oa8xBB2Fo5/fezf24Rg8Uz8/rQlvOA7PVvTSA95FoQvd+MEXN/YQhYGrByCOAOQKgDHgzh7+eg4gmmWH+PAswjTa6Bi4O7iYkfPUVJTlKWsCbCHzaMgSYOVZryELUqPbL5nASJ3JKRuAKalz0fjAQutpD6yIWqc4S2Cqavmdr6NjgOiDysgCwG3yl9ndJ08AMm+kTrK0JZgFmZvR0OYJjVdk0ZJOXdoBwyUZYDNd+6DHy1n5edA7gO4RhaJNYu/SfYZ+tAZQQdX7JYE9riMjlsX/C2dGzdUXROnW8oKZEshVHgYism2Nu1GxM19pi249z2/tawq5T77US3iSq7b7qv7UzBiFr6mkP3ZoPshMxEpX12ccHFYUom8riZL2gJEuoU30Mns7X1dskwIspK0ALrU/ZjQyuG0qhJSMB5JijrcCBOkQi0I0sbduIsOQzVNjyxio6jGgcBohSxridJFirYOm6vvjUCMtXl8D3Lggi7RNlqie2auoSNTscKkTrVmlJraFmy7r/KaFcG6gFhGU6p1GUWTs6zAqtFt/pulsofHQkdZuIH7C0y9ODZyRckJWoPLS5Nwxg/DwdMo4zyUnxUHCHRAFP9wB38CVK/tECPhv3ADXPuC5dLEhIhfG0g1FztwRievgZvF6315FYr8TDopHv4cDu0Xt8V0EPzgqGPC9zv8S8A+5+9sSdpGwiwAAAABJRU5ErkJggg==" />
@@ -111,9 +111,9 @@
     <div id="app"></div>
 
     <noscript>
-      <h2>JavaScriptが無効です</h2>
+      <h2>JavaScriptが無効です。</h2>
       <p>しあTubeを利用するにはJavaScriptを有効にしてください。</p>
     </noscript>
- <script data-goatcounter="https://siatube.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <!--<script data-goatcounter="https://siatube.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>-->
   </body>
 </html>
